@@ -1,4 +1,4 @@
-# vim_triton_ir_inspector
+# vim-triton-ir-inspector
 
 A Vim plugin to inspect Triton IR files and map them to their corresponding source files.
 
@@ -8,13 +8,13 @@ Choose one of the following options:
 
 ### Using [vim-plug](https://github.com/junegunn/vim-plug): 
 
-`Plug 'srikanthmalla/vim_triton_ir_inspector'`
+`Plug 'srikanthmalla/vim-triton-ir-inspector'`
 
 ### Clone the repo and manually add the path to runtime:
 
 Copy this repo under `.vim` and add this line to `.vimrc`:
 
-set runtimepath+=~/.vim/vim_triton_ir_inspector
+set runtimepath+=~/.vim/vim-triton-ir-inspector
 
 ## Dependencies:
 
