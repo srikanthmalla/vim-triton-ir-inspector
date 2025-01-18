@@ -14,7 +14,9 @@ Choose one of the following options:
 
 Copy this repo under `.vim` and add this line to `.vimrc`:
 
+```
 set runtimepath+=~/.vim/vim-triton-ir-inspector
+```
 
 ## Dependencies:
 
