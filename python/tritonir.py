@@ -56,9 +56,9 @@ def parse_tritonir(file_path):
     ttir_buffer_name = vim.current.buffer.name
 
     # Debugging: Output the mappings
-    vim.command(f'echom "Source file path: {source_file_path}"')
-    vim.command(f'echom "Triton IR to Source Mapping: {ttir_to_source}"')
-    vim.command(f'echom "Source to Triton IR Mapping: {source_to_ttir}"')
+    # vim.command(f'echom "Source file path: {source_file_path}"')
+    # vim.command(f'echom "Triton IR to Source Mapping: {ttir_to_source}"')
+    # vim.command(f'echom "Source to Triton IR Mapping: {source_to_ttir}"')
 
 def open_source_file():
     """Open the corresponding source file in a split."""
