@@ -41,6 +41,8 @@ set runtimepath+=~/.vim/vim-triton-ir-inspector
 
 ## Example Usage
 
+![alt text](figures/demo.png)
+
 1. **Inspect Triton IR file**:
     Open a Triton IR file in Vim and run:
 
