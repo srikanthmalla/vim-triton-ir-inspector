@@ -1,0 +1,38 @@
+*vim_triton_ir_inspector.txt*    Plugin documentation for vim_triton_ir_inspector
+
+==============================================================================
+NAME
+    vim_triton_ir_inspector - A plugin to inspect Triton IR files and map to source files.
+
+==============================================================================
+SYNOPSIS
+    :TritonIRToggle		- Toggles inspection of Triton IR files.
+
+==============================================================================
+DESCRIPTION
+    vim_triton_ir_inspector provides tools for inspecting Triton IR files
+    and linking operations in IR files to corresponding lines in source files.
+
+==============================================================================
+COMMANDS
+    :TritonIRToggle
+        Toggles inspection mode for the current Triton IR file.
+        - Parses `#loc` directives to map IR lines to source lines.
+        - Opens the associated source file in a split.
+
+==============================================================================
+MAPPINGS
+    `<Leader>tt`
+        Shortcut for `:TritonIRToggle`.
+
+==============================================================================
+FEATURES
+    - Real-time synchronization of cursor movements between Triton IR and source files.
+    - Highlights corresponding lines in the source and IR files.
+    - Parses `#loc` directives in Triton IR files for mappings.
+
+==============================================================================
+REQUIREMENTS
+    - Vim compiled with `+python3`.
+    - Python 3 environment.
+
